@@ -4,7 +4,7 @@
  at the best possoble price .
  
  1 - User Signup and regisration process via OTP varifications
- 2 - User Login 
+ 2 - User Login & Profile creations
  3- Home View Just to see the list out groceries avaiable location wise 
  4- Notifications View just to access the best fast forward natifications 
  5- Cart View just to procced checkout the added groceries 
