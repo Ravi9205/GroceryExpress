@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B371C0EE29CDA907009B8DF0 /* BestSellingProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371C0ED29CDA907009B8DF0 /* BestSellingProductCollectionViewCell.swift */; };
+		B371C0F129CDBFB9009B8DF0 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371C0F029CDBFB9009B8DF0 /* CardTableViewCell.swift */; };
+		B372890029CB04AF00A217E7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37288FF29CB04AF00A217E7 /* LocationManager.swift */; };
+		B372890329CB11C800A217E7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372890229CB11C800A217E7 /* UIViewExtensions.swift */; };
+		B37675C529D59E6A001EA8D6 /* ProfileHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37675C429D59E6A001EA8D6 /* ProfileHeaderTableViewCell.swift */; };
+		B37675C829D59E8D001EA8D6 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37675C729D59E8D001EA8D6 /* ProfileTableViewCell.swift */; };
+		B37675CB29D5F3DA001EA8D6 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37675CA29D5F3DA001EA8D6 /* NotificationTableViewCell.swift */; };
+		B377095129D6D6AC009E3E31 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377095029D6D6AC009E3E31 /* PaymentViewController.swift */; };
+		B377095429D705A8009E3E31 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377095329D705A8009E3E31 /* CardCollectionViewCell.swift */; };
+		B377095729D706F9009E3E31 /* AddNewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377095629D706F9009E3E31 /* AddNewCardViewController.swift */; };
+		B386EC0F29D18FF700C54159 /* GroceryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386EC0E29D18FF700C54159 /* GroceryDetailsViewController.swift */; };
+		B386EC1229D1AD1800C54159 /* ImageSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386EC1129D1AD1800C54159 /* ImageSliderCollectionViewCell.swift */; };
 		B38E37EA29C97CBC0092C5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E37E929C97CBC0092C5AA /* AppDelegate.swift */; };
 		B38E37EC29C97CBC0092C5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E37EB29C97CBC0092C5AA /* SceneDelegate.swift */; };
-		B38E37EE29C97CBC0092C5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E37ED29C97CBC0092C5AA /* ViewController.swift */; };
 		B38E37F129C97CBC0092C5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38E37EF29C97CBC0092C5AA /* Main.storyboard */; };
 		B38E37F329C97CC00092C5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38E37F229C97CC00092C5AA /* Assets.xcassets */; };
 		B38E37F629C97CC00092C5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38E37F429C97CC00092C5AA /* LaunchScreen.storyboard */; };
 		B38E380129C97CC10092C5AA /* GroceryExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E380029C97CC10092C5AA /* GroceryExpressTests.swift */; };
 		B38E380B29C97CC10092C5AA /* GroceryExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E380A29C97CC10092C5AA /* GroceryExpressUITests.swift */; };
 		B38E380D29C97CC10092C5AA /* GroceryExpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E380C29C97CC10092C5AA /* GroceryExpressUITestsLaunchTests.swift */; };
+		B38E382329C97EC80092C5AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E382229C97EC80092C5AA /* LoginViewController.swift */; };
+		B38E382729C97F1C0092C5AA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E382629C97F1C0092C5AA /* SignUpViewController.swift */; };
+		B38E382929C980350092C5AA /* SemiCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E382829C980350092C5AA /* SemiCircleView.swift */; };
+		B38E382C29C9CE130092C5AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E382B29C9CE130092C5AA /* HomeViewController.swift */; };
+		B38E382F29C9CEEB0092C5AA /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E382E29C9CEEB0092C5AA /* NotificationViewController.swift */; };
+		B38E383229C9CF060092C5AA /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E383129C9CF060092C5AA /* CardViewController.swift */; };
+		B38E383529C9CF2D0092C5AA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E383429C9CF2D0092C5AA /* ProfileViewController.swift */; };
+		B38E383829C9D7320092C5AA /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E383729C9D7320092C5AA /* LocationViewController.swift */; };
+		B39010E729D313320073BB31 /* RelatedProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39010E629D313320073BB31 /* RelatedProductCollectionViewCell.swift */; };
+		B39010EA29D343150073BB31 /* PaymentConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39010E929D343150073BB31 /* PaymentConfirmationViewController.swift */; };
+		B391520429D4730E0093E33E /* LocationAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391520329D4730E0093E33E /* LocationAccessViewController.swift */; };
+		B396ADD029CC2B2A00AFA5C0 /* HomeHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396ADCF29CC2B2A00AFA5C0 /* HomeHeaderTableViewCell.swift */; };
+		B396ADD329CC2BDD00AFA5C0 /* BestSellingProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396ADD229CC2BDD00AFA5C0 /* BestSellingProductTableViewCell.swift */; };
+		B396ADD629CC2C3400AFA5C0 /* NearByShopsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396ADD529CC2C3400AFA5C0 /* NearByShopsTableViewCell.swift */; };
+		B396ADD829CC730600AFA5C0 /* UITextFieldField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396ADD729CC730600AFA5C0 /* UITextFieldField.swift */; };
+		B396ADDB29CCB9B600AFA5C0 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396ADDA29CCB9B600AFA5C0 /* CategoryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +63,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B371C0ED29CDA907009B8DF0 /* BestSellingProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellingProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		B371C0F029CDBFB9009B8DF0 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		B37288FF29CB04AF00A217E7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B372890229CB11C800A217E7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		B37675C429D59E6A001EA8D6 /* ProfileHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B37675C729D59E8D001EA8D6 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		B37675CA29D5F3DA001EA8D6 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		B377095029D6D6AC009E3E31 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		B377095329D705A8009E3E31 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B377095629D706F9009E3E31 /* AddNewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardViewController.swift; sourceTree = "<group>"; };
+		B386EC0E29D18FF700C54159 /* GroceryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryDetailsViewController.swift; sourceTree = "<group>"; };
+		B386EC1129D1AD1800C54159 /* ImageSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		B38E37E629C97CBC0092C5AA /* GroceryExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E37E929C97CBC0092C5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38E37EB29C97CBC0092C5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B38E37ED29C97CBC0092C5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B38E37F029C97CBC0092C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B38E37F229C97CC00092C5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38E37F529C97CC00092C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +87,22 @@
 		B38E380629C97CC10092C5AA /* GroceryExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E380A29C97CC10092C5AA /* GroceryExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryExpressUITests.swift; sourceTree = "<group>"; };
 		B38E380C29C97CC10092C5AA /* GroceryExpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryExpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B38E382229C97EC80092C5AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B38E382629C97F1C0092C5AA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B38E382829C980350092C5AA /* SemiCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleView.swift; sourceTree = "<group>"; };
+		B38E382B29C9CE130092C5AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B38E382E29C9CEEB0092C5AA /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		B38E383129C9CF060092C5AA /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		B38E383429C9CF2D0092C5AA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B38E383729C9D7320092C5AA /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B39010E629D313320073BB31 /* RelatedProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		B39010E929D343150073BB31 /* PaymentConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationViewController.swift; sourceTree = "<group>"; };
+		B391520329D4730E0093E33E /* LocationAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAccessViewController.swift; sourceTree = "<group>"; };
+		B396ADCF29CC2B2A00AFA5C0 /* HomeHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B396ADD229CC2BDD00AFA5C0 /* BestSellingProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellingProductTableViewCell.swift; sourceTree = "<group>"; };
+		B396ADD529CC2C3400AFA5C0 /* NearByShopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByShopsTableViewCell.swift; sourceTree = "<group>"; };
+		B396ADD729CC730600AFA5C0 /* UITextFieldField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldField.swift; sourceTree = "<group>"; };
+		B396ADDA29CCB9B600AFA5C0 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +130,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B371C0EC29CDA8DD009B8DF0 /* BestSellingProductCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B371C0ED29CDA907009B8DF0 /* BestSellingProductCollectionViewCell.swift */,
+			);
+			path = BestSellingProductCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B371C0EF29CDBF89009B8DF0 /* CardTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B371C0F029CDBFB9009B8DF0 /* CardTableViewCell.swift */,
+			);
+			path = CardTableViewCell;
+			sourceTree = "<group>";
+		};
+		B37288FE29CB049700A217E7 /* LocationManger */ = {
+			isa = PBXGroup;
+			children = (
+				B37288FF29CB04AF00A217E7 /* LocationManager.swift */,
+			);
+			path = LocationManger;
+			sourceTree = "<group>";
+		};
+		B372890129CB11A000A217E7 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				B372890229CB11C800A217E7 /* UIViewExtensions.swift */,
+				B396ADD729CC730600AFA5C0 /* UITextFieldField.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		B37675C329D59E3B001EA8D6 /* ProfileHeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B37675C429D59E6A001EA8D6 /* ProfileHeaderTableViewCell.swift */,
+			);
+			path = ProfileHeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		B37675C629D59E75001EA8D6 /* ProfileTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B37675C729D59E8D001EA8D6 /* ProfileTableViewCell.swift */,
+			);
+			path = ProfileTableViewCell;
+			sourceTree = "<group>";
+		};
+		B37675C929D5F3B0001EA8D6 /* NotificationCell */ = {
+			isa = PBXGroup;
+			children = (
+				B37675CA29D5F3DA001EA8D6 /* NotificationTableViewCell.swift */,
+			);
+			path = NotificationCell;
+			sourceTree = "<group>";
+		};
+		B377094F29D6D67D009E3E31 /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B377095229D7056F009E3E31 /* CardCollectionViewCell */,
+				B377095029D6D6AC009E3E31 /* PaymentViewController.swift */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
+		B377095229D7056F009E3E31 /* CardCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B377095329D705A8009E3E31 /* CardCollectionViewCell.swift */,
+			);
+			path = CardCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B377095529D706D3009E3E31 /* AddNewCardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B377095629D706F9009E3E31 /* AddNewCardViewController.swift */,
+			);
+			path = AddNewCardViewController;
+			sourceTree = "<group>";
+		};
+		B386EC0D29D18F8600C54159 /* GroceryDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B39010E529D30DC40073BB31 /* RelatedProductCollectionViewCell */,
+				B386EC1029D1ACD100C54159 /* ImageSliderCollectionView */,
+				B386EC0E29D18FF700C54159 /* GroceryDetailsViewController.swift */,
+			);
+			path = GroceryDetailsViewController;
+			sourceTree = "<group>";
+		};
+		B386EC1029D1ACD100C54159 /* ImageSliderCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B386EC1129D1AD1800C54159 /* ImageSliderCollectionViewCell.swift */,
+			);
+			path = ImageSliderCollectionView;
+			sourceTree = "<group>";
+		};
 		B38E37DD29C97CBC0092C5AA = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +253,18 @@
 		B38E37E829C97CBC0092C5AA /* GroceryExpress */ = {
 			isa = PBXGroup;
 			children = (
-				B38E37E929C97CBC0092C5AA /* AppDelegate.swift */,
-				B38E37EB29C97CBC0092C5AA /* SceneDelegate.swift */,
-				B38E37ED29C97CBC0092C5AA /* ViewController.swift */,
-				B38E37EF29C97CBC0092C5AA /* Main.storyboard */,
+				B372890129CB11A000A217E7 /* IBDesignable */,
+				B37288FE29CB049700A217E7 /* LocationManger */,
+				B38E382129C97EA80092C5AA /* SemiCircleView */,
+				B38E382029C97E3C0092C5AA /* Resource */,
+				B38E381F29C97E1A0092C5AA /* Controllers */,
+				B38E381E29C97E010092C5AA /* HttpUtility */,
+				B38E381D29C97DEF0092C5AA /* ApiCollection */,
+				B38E381C29C97DE80092C5AA /* Enums */,
+				B38E381B29C97D530092C5AA /* Constants */,
+				B38E381A29C97D4D0092C5AA /* ViewModels */,
+				B38E381929C97D450092C5AA /* View */,
 				B38E37F229C97CC00092C5AA /* Assets.xcassets */,
-				B38E37F429C97CC00092C5AA /* LaunchScreen.storyboard */,
 				B38E37F729C97CC00092C5AA /* Info.plist */,
 			);
 			path = GroceryExpress;
@@ -125,6 +285,207 @@
 				B38E380C29C97CC10092C5AA /* GroceryExpressUITestsLaunchTests.swift */,
 			);
 			path = GroceryExpressUITests;
+			sourceTree = "<group>";
+		};
+		B38E381929C97D450092C5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B38E37EF29C97CBC0092C5AA /* Main.storyboard */,
+				B38E37F429C97CC00092C5AA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B38E381A29C97D4D0092C5AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B38E381B29C97D530092C5AA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B38E381C29C97DE80092C5AA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B38E381D29C97DEF0092C5AA /* ApiCollection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApiCollection;
+			sourceTree = "<group>";
+		};
+		B38E381E29C97E010092C5AA /* HttpUtility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpUtility;
+			sourceTree = "<group>";
+		};
+		B38E381F29C97E1A0092C5AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B377095529D706D3009E3E31 /* AddNewCardViewController */,
+				B377094F29D6D67D009E3E31 /* PaymentViewController */,
+				B391520229D472EB0093E33E /* LocationAccessViewController */,
+				B39010E829D342E30073BB31 /* PaymentConfirmationViewController */,
+				B386EC0D29D18F8600C54159 /* GroceryDetailsViewController */,
+				B38E383629C9D7130092C5AA /* LocationViewController */,
+				B38E383329C9CF150092C5AA /* ProfileViewController */,
+				B38E383029C9CEF20092C5AA /* CardViewController */,
+				B38E382D29C9CED20092C5AA /* NotificationViewController */,
+				B38E382A29C9CDFB0092C5AA /* HomeViewController */,
+				B38E382529C97EF30092C5AA /* SignUpViewController */,
+				B38E382429C97ED30092C5AA /* LoginViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B38E382029C97E3C0092C5AA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B38E37E929C97CBC0092C5AA /* AppDelegate.swift */,
+				B38E37EB29C97CBC0092C5AA /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B38E382129C97EA80092C5AA /* SemiCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				B38E382829C980350092C5AA /* SemiCircleView.swift */,
+			);
+			path = SemiCircleView;
+			sourceTree = "<group>";
+		};
+		B38E382429C97ED30092C5AA /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B38E382229C97EC80092C5AA /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		B38E382529C97EF30092C5AA /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B38E382629C97F1C0092C5AA /* SignUpViewController.swift */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		B38E382A29C9CDFB0092C5AA /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B396ADD429CC2BEA00AFA5C0 /* NearByShopsTableViewCell */,
+				B396ADD129CC2B5A00AFA5C0 /* BestSellingProductTableViewCell */,
+				B396ADCC29CC2A8600AFA5C0 /* HomeHeaderTableViewCell */,
+				B38E382B29C9CE130092C5AA /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		B38E382D29C9CED20092C5AA /* NotificationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B37675C929D5F3B0001EA8D6 /* NotificationCell */,
+				B38E382E29C9CEEB0092C5AA /* NotificationViewController.swift */,
+			);
+			path = NotificationViewController;
+			sourceTree = "<group>";
+		};
+		B38E383029C9CEF20092C5AA /* CardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B371C0EF29CDBF89009B8DF0 /* CardTableViewCell */,
+				B38E383129C9CF060092C5AA /* CardViewController.swift */,
+			);
+			path = CardViewController;
+			sourceTree = "<group>";
+		};
+		B38E383329C9CF150092C5AA /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B37675C629D59E75001EA8D6 /* ProfileTableViewCell */,
+				B37675C329D59E3B001EA8D6 /* ProfileHeaderTableViewCell */,
+				B38E383429C9CF2D0092C5AA /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		B38E383629C9D7130092C5AA /* LocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B38E383729C9D7320092C5AA /* LocationViewController.swift */,
+			);
+			path = LocationViewController;
+			sourceTree = "<group>";
+		};
+		B39010E529D30DC40073BB31 /* RelatedProductCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B39010E629D313320073BB31 /* RelatedProductCollectionViewCell.swift */,
+			);
+			path = RelatedProductCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B39010E829D342E30073BB31 /* PaymentConfirmationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B39010E929D343150073BB31 /* PaymentConfirmationViewController.swift */,
+			);
+			path = PaymentConfirmationViewController;
+			sourceTree = "<group>";
+		};
+		B391520229D472EB0093E33E /* LocationAccessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B391520329D4730E0093E33E /* LocationAccessViewController.swift */,
+			);
+			path = LocationAccessViewController;
+			sourceTree = "<group>";
+		};
+		B396ADCC29CC2A8600AFA5C0 /* HomeHeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B396ADD929CCB97E00AFA5C0 /* CategoryCollectionViewCell */,
+				B396ADCF29CC2B2A00AFA5C0 /* HomeHeaderTableViewCell.swift */,
+			);
+			path = HomeHeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		B396ADD129CC2B5A00AFA5C0 /* BestSellingProductTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B371C0EC29CDA8DD009B8DF0 /* BestSellingProductCollectionViewCell */,
+				B396ADD229CC2BDD00AFA5C0 /* BestSellingProductTableViewCell.swift */,
+			);
+			path = BestSellingProductTableViewCell;
+			sourceTree = "<group>";
+		};
+		B396ADD429CC2BEA00AFA5C0 /* NearByShopsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B396ADD529CC2C3400AFA5C0 /* NearByShopsTableViewCell.swift */,
+			);
+			path = NearByShopsTableViewCell;
+			sourceTree = "<group>";
+		};
+		B396ADD929CCB97E00AFA5C0 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B396ADDA29CCB9B600AFA5C0 /* CategoryCollectionViewCell.swift */,
+			);
+			path = CategoryCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +619,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38E37EE29C97CBC0092C5AA /* ViewController.swift in Sources */,
+				B37675CB29D5F3DA001EA8D6 /* NotificationTableViewCell.swift in Sources */,
+				B39010E729D313320073BB31 /* RelatedProductCollectionViewCell.swift in Sources */,
+				B38E382329C97EC80092C5AA /* LoginViewController.swift in Sources */,
+				B38E382929C980350092C5AA /* SemiCircleView.swift in Sources */,
 				B38E37EA29C97CBC0092C5AA /* AppDelegate.swift in Sources */,
+				B377095729D706F9009E3E31 /* AddNewCardViewController.swift in Sources */,
+				B396ADDB29CCB9B600AFA5C0 /* CategoryCollectionViewCell.swift in Sources */,
+				B372890029CB04AF00A217E7 /* LocationManager.swift in Sources */,
+				B377095129D6D6AC009E3E31 /* PaymentViewController.swift in Sources */,
+				B371C0F129CDBFB9009B8DF0 /* CardTableViewCell.swift in Sources */,
+				B396ADD329CC2BDD00AFA5C0 /* BestSellingProductTableViewCell.swift in Sources */,
+				B38E382F29C9CEEB0092C5AA /* NotificationViewController.swift in Sources */,
+				B37675C829D59E8D001EA8D6 /* ProfileTableViewCell.swift in Sources */,
+				B38E383229C9CF060092C5AA /* CardViewController.swift in Sources */,
+				B38E383829C9D7320092C5AA /* LocationViewController.swift in Sources */,
+				B391520429D4730E0093E33E /* LocationAccessViewController.swift in Sources */,
+				B39010EA29D343150073BB31 /* PaymentConfirmationViewController.swift in Sources */,
+				B38E382729C97F1C0092C5AA /* SignUpViewController.swift in Sources */,
+				B396ADD029CC2B2A00AFA5C0 /* HomeHeaderTableViewCell.swift in Sources */,
+				B396ADD629CC2C3400AFA5C0 /* NearByShopsTableViewCell.swift in Sources */,
+				B377095429D705A8009E3E31 /* CardCollectionViewCell.swift in Sources */,
+				B38E383529C9CF2D0092C5AA /* ProfileViewController.swift in Sources */,
+				B396ADD829CC730600AFA5C0 /* UITextFieldField.swift in Sources */,
 				B38E37EC29C97CBC0092C5AA /* SceneDelegate.swift in Sources */,
+				B37675C529D59E6A001EA8D6 /* ProfileHeaderTableViewCell.swift in Sources */,
+				B386EC1229D1AD1800C54159 /* ImageSliderCollectionViewCell.swift in Sources */,
+				B371C0EE29CDA907009B8DF0 /* BestSellingProductCollectionViewCell.swift in Sources */,
+				B386EC0F29D18FF700C54159 /* GroceryDetailsViewController.swift in Sources */,
+				B372890329CB11C800A217E7 /* UIViewExtensions.swift in Sources */,
+				B38E382C29C9CE130092C5AA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +759,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -425,6 +814,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -455,7 +845,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +872,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
