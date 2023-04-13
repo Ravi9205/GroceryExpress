@@ -1,4 +1,24 @@
-# GroceryExpress![Simulator Screen Shot - iPhone 13 Pro Max - 2023-04-13 at 15 06 55](https://user-images.githubusercontent.com/58682591/231719862-9af5a2f5-978f-4387-ba1a-99f00f58617b.png)
+# GroceryExpress
+
+ This is a Grocery Delivery app created for the sole purpose of serving the customer at their door step and delievering fresh groceries 
+ at the best possoble price .
+ 
+ 1 - User Signup and regisration process via OTP varifications
+ 2 - User Login 
+ 3- Home View Just to see the list out groceries avaiable location wise 
+ 4- Notifications View just to access the best fast forward natifications 
+ 5- Cart View just to procced checkout the added groceries 
+ 6 -Payment gateways intergrations (UPI) and various cards incluing credit card & Debit cards integrations and payment processs
+ 7 - Order confirmations 
+ 8 - Delivery at the door steps using other mode of payment acceptence such COD 
+ 9 - Invoice generations .
+ 10 - Reviews and Ratings of customers who are happy from the Expresss groceries services
+ 
+ 
+
+
+
+![Simulator Screen Shot - iPhone 13 Pro Max - 2023-04-13 at 15 06 55](https://user-images.githubusercontent.com/58682591/231719862-9af5a2f5-978f-4387-ba1a-99f00f58617b.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2023-04-13 at 15 07 02](https://user-images.githubusercontent.com/58682591/231720079-ea0546f1-dd4a-42c2-8e5a-24beeb5fddbb.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2023-04-13 at 15 07 15](https://user-images.githubusercontent.com/58682591/231720099-56a30486-39e3-438e-8d71-96093250bcc7.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2023-04-13 at 15 07 28](https://user-images.githubusercontent.com/58682591/231720112-01d6105b-1f43-44fc-b28c-4d723d66d316.png)
